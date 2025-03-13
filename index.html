@@ -1,0 +1,534 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Monicah Aulga - Advocate & Legal Services in Nairobi, Kenya</title>
+  <meta name="description" content="Monicah Aulga is a dedicated advocate in Nairobi, Kenya offering comprehensive legal services including intellectual property protection, contract drafting, digital rights compliance, monetization strategies, and dispute resolution.">
+  <meta name="keywords" content="Monicah Aulga, Advocate, Legal Services, Nairobi, Kenya, Intellectual Property, Contract Drafting, Digital Rights, Litigation, Legal Consultation, Kenyan Law">
+  
+  <!-- Favicons -->
+  <link href="balance.png" rel="icon">
+  <link href="balance.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    /* RESET & BASE STYLES */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+    }
+
+    /* HERO SECTION WITH GRADIENT BACKGROUND */
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(to right, #bfbfbf, #ffffff);
+      overflow: hidden;
+    }
+
+    /* TRANSPARENT PNG IMAGE */
+    .hero-image {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: auto;
+      max-height: 85%; /* Desktop size */
+      opacity: 0;
+      animation: fadeInImage 1s ease-out forwards;
+      animation-delay: 0.3s;
+    }
+
+    /* TEXT CONTENT */
+    .hero-content {
+      position: absolute;
+      top: 60%; /* Final vertical position */
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      max-width: 600px;
+      padding: 0 1rem;
+      opacity: 0;
+      animation: fadeInUp 1s ease-out forwards;
+      animation-delay: 0.5s;
+    }
+    .hero-content h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+    .hero-content p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+    .view-gallery {
+      display: inline-block;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.75rem 1.5rem;
+      border: 2px solid #fff;
+      color: #fff;
+      background-color: transparent;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+    .view-gallery:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    /* FADE-IN UP ANIMATION for text (from 20px lower) */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, calc(-50% + 20px));
+      }
+      100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    /* FADE-IN UP ANIMATION for image */
+    @keyframes fadeInImage {
+      0% {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+    }
+
+    /* RESPONSIVE BREAKPOINTS */
+    @media (max-width: 768px) {
+      .hero-image {
+        max-height: 85%;
+      }
+      .hero-content h1 {
+        font-size: 2.8rem;
+      }
+      .hero-content p {
+        font-size: 1rem;
+      }
+      .view-gallery {
+        font-size: 1rem;
+        padding: 0.65rem 1.3rem;
+      }
+    }
+    @media (max-width: 480px) {
+      .hero-image {
+        max-height: 90%;
+      }
+      .hero-content h1 {
+        font-size: 2.5rem;
+      }
+      .hero-content p {
+        font-size: 0.9rem;
+      }
+      .view-gallery {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> 
+        <h1 class="sitename">Lonely</h1>-->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+<!-- Replace 'cover.png' with your actual PNG URL/path -->
+<img src="cover.png" alt="Monicah" class="hero-image" />
+<div class="hero-content">
+  <h1>MONICAH</h1>
+  <p>ADVOCATE</p>
+  <a href="#about" class="view-gallery" title="Scroll Down">VIEW PORTFOLIO</a>
+</div>
+
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About Monicah Aulga</h2>
+          <p>Dedicated legal counsel with a passion for justice and tailored representation.</p>
+        </div><!-- End Section Title -->
+      
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+              <img src="monic4.jpg" class="img-fluid" alt="Monica Aulga">
+            </div>
+            <div class="col-lg-8 content">
+              <h2>Monicah Aulga – Advocate</h2>
+              <p class="fst-italic py-3">
+                With a wealth of experience and a client-centered approach, I stands as a trusted advocate committed to protecting rights and securing justice.
+              </p>
+              <p class="py-3">
+                Her practice spans a comprehensive range of legal areas—from safeguarding intellectual property and meticulously drafting and reviewing contracts, to ensuring digital rights compliance and developing effective revenue strategies. My expertise also encompasses robust dispute resolution and litigation support.
+              </p>
+              <p class="py-3">
+                Whether you are facing complex legal challenges or seeking proactive legal advice, My tailored approach ensures that your rights are well protected and your legal interests are served.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+      </section><!-- /About Section -->
+      
+      <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>A comprehensive suite of legal solutions designed to protect your creative, digital, and business interests.</p>
+        </div><!-- End Section Title -->
+      
+        <div class="container">
+          <div class="row gy-4">
+      
+            <!-- Category A: Intellectual Property Rights -->
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-shield-lock"></i></div>
+                <h4>Intellectual Property Rights</h4>
+                <ul>
+                  <li>Copyright registration with KECOBO</li>
+                  <li>Trademark protection with KIPI</li>
+                  <li>Patent protection for inventions</li>
+                  <li>Content Licensing and Distribution Rights</li>
+                  <li>Trade Secret Protection</li>
+                </ul>
+                <p>Protecting your creative and innovative work with robust legal measures.</p>
+              </div>
+            </div><!-- End Category A -->
+      
+            <!-- Category B: Contract Drafting and Review -->
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-pencil-square"></i></div>
+                <h4>Contract Drafting &amp; Review</h4>
+                <ul>
+                  <li>Content creation contracts</li>
+                  <li>Influencer Agreements</li>
+                  <li>Freelancer contracts</li>
+                  <li>Revenue sharing agreements</li>
+                </ul>
+                <p>Ensuring agreements are clear, fair, and tailored to your needs.</p>
+              </div>
+            </div><!-- End Category B -->
+      
+            <!-- Category C: Digital Rights and Compliance -->
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-laptop"></i></div>
+                <h4>Digital Rights &amp; Compliance</h4>
+                <ul>
+                  <li>Platform compliance</li>
+                  <li>Data Privacy and GDPR compliance</li>
+                  <li>Advertising and Consumer Protection Laws</li>
+                </ul>
+                <p>Guiding digital operations to align with regulatory requirements and best practices.</p>
+              </div>
+            </div><!-- End Category C -->
+      
+            <!-- Category D: Monetization and Revenue Strategies -->
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-currency-dollar"></i></div>
+                <h4>Monetization &amp; Revenue Strategies</h4>
+                <ul>
+                  <li>Ad revenue contracts</li>
+                  <li>Subscription models</li>
+                  <li>Crowdfunding and Crowdsourcing</li>
+                </ul>
+                <p>Developing innovative strategies to maximize financial growth and sustainability.</p>
+              </div>
+            </div><!-- End Category D -->
+      
+            <!-- Category E: Dispute Resolution and Litigation -->
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-scale"></i></div>
+                <h4>Dispute Resolution &amp; Litigation</h4>
+                <ul>
+                  <li>Copyright infringement</li>
+                  <li>Defamation and Reputation protection</li>
+                  <li>Mediation and Arbitration</li>
+                </ul>
+                <p>Resolving conflicts effectively to safeguard your rights and interests.</p>
+              </div>
+            </div><!-- End Category E -->
+      
+            <!-- Category F: Legal Advisory & Consultation -->
+            <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-chat-dots"></i></div>
+                <h4>Legal Advisory &amp; Consultation</h4>
+                <ul>
+                  <li>Comprehensive legal strategy consultations</li>
+                  <li>Risk assessment and mitigation</li>
+                  <li>Tailored legal research and guidance</li>
+                  <li>Ongoing advisory support</li>
+                </ul>
+                <p>Providing personalized legal advice and strategic planning to navigate complex challenges and achieve sustainable success.</p>
+              </div>
+            </div><!-- End Category F -->
+      
+          </div>
+        </div>
+      
+      </section><!-- /Services Section -->
+      
+
+    <!-- Resume Section -->
+<section id="resume" class="resume section light-background">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Resume</h2>
+      <p>Committed to justice and excellence with focused legal practice in Kenya.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container">
+      <div class="row">
+  
+        <!-- Left Column: Summary and Education -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Monicah Aulga</h4>
+            <p><em>
+              Resourceful and driven advocate with 2 years of legal practice in Kenya, specializing in intellectual property, contract law, and dispute resolution. Known for meticulous attention to detail and a client-focused approach.
+            </em></p>
+            <ul>
+              <li>Nairobi, Kenya</li>
+              <li>+254 700 123456</li>
+              <li>monicah.aulga@example.com</li>
+            </ul>
+          </div><!-- End Resume Item -->
+  
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Bachelor of Laws (LLB)</h4>
+            <h5>2018 - 2021</h5>
+            <p><em>University of Nairobi, Nairobi, Kenya</em></p>
+            <p>
+              Graduated with honors; actively participated in moot court competitions and legal clinics, demonstrating strong advocacy and research skills.
+            </p>
+          </div><!-- End Resume Item -->
+        </div>
+  
+        <!-- Right Column: Professional Experience -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Legal Associate</h4>
+            <h5>2021 - Present</h5>
+            <p><em>Monicah &amp; Associates, Nairobi, Kenya</em></p>
+            <ul>
+              <li>Draft and review legal documents, contracts, and agreements.</li>
+              <li>Advise clients on intellectual property rights and digital compliance.</li>
+              <li>Represent clients in mediation and dispute resolution proceedings.</li>
+              <li>Conduct comprehensive legal research and case analysis.</li>
+            </ul>
+          </div><!-- End Resume Item -->
+  
+          <div class="resume-item">
+            <h4>Legal Intern</h4>
+            <h5>2020 - 2021</h5>
+            <p><em>Legal Aid Kenya, Nairobi, Kenya</em></p>
+            <ul>
+              <li>Assisted in drafting legal documents and maintaining case files.</li>
+              <li>Supported senior advocates in client consultations and court preparations.</li>
+              <li>Gained hands-on experience in legal procedures and dispute management.</li>
+            </ul>
+          </div><!-- End Resume Item -->
+        </div>
+  
+      </div>
+    </div>
+  
+  </section><!-- /Resume Section -->
+  
+    <!-- Services Section -->
+   
+
+    <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up" data-aos-duration="1200">
+      <h2>Contact</h2>
+      <p>Get in touch for legal consultations and inquiries.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container" data-aos="fade" data-aos-delay="100" data-aos-duration="1200">
+      <div class="row gy-4">
+  
+        <!-- Contact Info Column with Photo -->
+        <div class="col-lg-4">
+          <!-- Contact Photo -->
+          <div class="contact-photo" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">
+            <img src="monic 2.jpg" class="img-fluid" alt="Monicah Aulga">
+          </div><br>
+          <!-- Info Items -->
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>Nairobi, Kenya</p>
+            </div>
+          </div><!-- End Info Item -->
+  
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1200">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Call Me</h3>
+              <p>+254 97526670</p>
+            </div>
+          </div><!-- End Info Item -->
+  
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Us</h3>
+              <p>monicahaulga@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+        </div>
+  
+        <!-- Contact Form Column -->
+        <div class="col-lg-8">
+          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <button type="submit">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div><!-- End Contact Form Column -->
+  
+      </div>
+    </div>
+  
+  </section><!-- /Contact Section -->
+  
+
+  </main>
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <h3 class="sitename">MONICAH AULGA</h3>
+      <p>Dedicated to safeguarding your rights and delivering justice with expertise and compassion. Committed to excellence in legal advocacy.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-skype"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">MONICAH AULGA</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://otis-ke.github.io/portfolio/">OTIS-KE</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
